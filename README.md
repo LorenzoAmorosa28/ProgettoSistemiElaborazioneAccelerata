@@ -29,8 +29,8 @@ Testato su **NVIDIA Tesla T4** (Google Colab) con Video 4K ($3840 \times 2160$).
 
 | Implementazione | Tempo di Esecuzione (per frame) | FPS Teorici |
 | :--- | :---: | :---: |
-| CPU | ~80.0 ms | ~12 FPS |
-| CUDA | ~1.45 ms | ~690 FPS |
+| CPU | ~85.0 ms | ~12 FPS |
+| CUDA | ~0.98 ms | >1000 FPS |
 
 *Verificato tramite NVIDIA Nsight Compute (Analisi Roofline).*
 
